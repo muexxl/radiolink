@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='radiolink',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Radiolink package for communication with multiple RF24 modules',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Stephan Muekusch',
+    author_email='stephan@1drone.de',
+    url='https://github.com/muexxl',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
